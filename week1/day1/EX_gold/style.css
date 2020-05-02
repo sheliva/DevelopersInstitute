@@ -1,0 +1,31 @@
+/* font famili */
+* {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+/* font family */
+body {
+  background: whitesmoke;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  background: none;
+  border: 4px solid;
+  color: #3498db;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button::before,
+button::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 4px;
+  background: whitesmoke;
+}
